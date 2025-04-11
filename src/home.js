@@ -7,7 +7,7 @@ export function renderHomePage() {
     const menuButton = document.createElement("button");
     const aboutButton = document.createElement("button");
     const contentBody = document.createElement("div");
-    const headline = document.createElement("div");
+    const headline = document.createElement("h2");
     const burgerImage = document.createElement("img");
     const paragraphBody = document.createElement("div");
     
