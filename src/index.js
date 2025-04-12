@@ -1,6 +1,7 @@
 import "./styles.css";
 import { renderHomePage } from "./home";
 import { renderMenuPage } from "./menu";
+import { renderAboutPage } from "./about";
 
 function clearPageContent(){
     const mainContent = document.querySelector("#content"); 
@@ -39,4 +40,3 @@ function changePage(){
 
 renderHomePage();
 changePage();
-
